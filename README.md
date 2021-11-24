@@ -78,7 +78,7 @@ Module conecion
     Public estado As String
     Sub enlace()
         Try
-            conexion.ConnectionString = "Data Source=SLIFER;Initial Catalog=testdb;User ID=sa; Password=5325410jg"
+            conexion.ConnectionString = "Data Source=Server;Initial Catalog=testdb;User ID=sa; Password=**********"
             conexion.Open()
             estado = "conectado"
         Catch ex As Exception
